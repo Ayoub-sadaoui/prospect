@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta class="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Managment</title>
+
+    <link rel="stylesheet" href="prospect (1).css">
+    <link rel="stylesheet" href="./nav-bar.css">
+    <link rel="stylesheet" href="side (1).css">
+    <script src="https://kit.fontawesome.com/7bc55b4974.js" crossorigin="anonymous"></script> 
+</head>
+
+<body>
+
+    <div class="log-in backgroundd">
+
+        <div class="header">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="item">
+                <path
+                    d="M116.096 27.8065L103.741 14.1781L103.749 14.1732L92.0643 1.28584L62.9273 25.1164L62.7028 24.8669L62.6977 24.862L49.3649 10.159H49.3597C44.6412 4.95417 37.8484 1.47358 30.1036 0.949887C14.6089 -0.0975025 1.16522 11.0804 0.0713569 25.9143C-0.498794 33.624 2.38292 40.805 7.45494 46.0716L20.2743 60.2089L20.7206 60.7005L31.9559 73.0962L45.5725 61.8467L60.9614 49.1323L61.0517 49.2311L64.501 53.0353L74.1884 63.7216H74.1935C78.9095 68.9215 85.7023 72.4021 93.4497 72.9283C108.942 73.9756 122.388 62.7977 123.482 47.9638C124.052 40.2542 121.168 33.0706 116.096 27.8041V27.8065ZM49.2823 36.2795L33.7902 48.9495L32.0075 46.998L32.0179 46.9881L20.5091 34.2934C20.4833 34.2638 20.4549 34.2366 20.4291 34.207C18.7186 32.3197 17.7589 29.8099 17.955 27.1173C18.3523 21.7371 23.2283 17.6834 28.8498 18.0638C31.6593 18.2516 34.123 19.5188 35.8335 21.4036C35.8696 21.4456 35.9031 21.4827 35.9393 21.5222L47.3707 34.1279L49.1379 36.0794L49.3081 36.2573L49.2514 36.3017L49.2798 36.2795H49.2823ZM105.64 46.7929C105.242 52.1707 100.366 56.2268 94.7474 55.8464C91.9353 55.6587 89.4741 54.3914 87.7611 52.5066C87.7275 52.4671 87.6914 52.4301 87.6579 52.3881L74.7173 38.1149L79.0489 34.5059L90.1604 25.3585L103.088 39.6168C103.114 39.6465 103.14 39.6736 103.165 39.7033C104.879 41.5906 105.838 44.1028 105.64 46.7929Z"
+                    opacity="1" >
+                </path>
+            </svg>
+            <h1>New Digital Way</h1>
+        </div>
+        
+        <div class="enter">
+            <div>
+                <input id="username" type="text" >
+                <label id="entered" >Username</label>
+                <p id="wrongusername">unvalid username, please check you username</p>
+            </div>
+            <div>
+                <input id="password" type="password" >    
+                <label id="entered">Password</label>
+                <p id="wrongpassword">wrong password, please check you password</p>
+
+            </div>
+        </div>
+
+        <button id="logbtn">Log-in</button>
+
+        <div class="welcom">
+            <h1>Welcome...</h1>
+            <img src="undraw_Welcoming_re_x0qo.png" width="300px" height="330px">
+        </div>
+    </div>
+
+
+<div class="alll">
+            
+        <div class="blur"></div>
+
+
+     <!-- ////////////////////////// -->
+    <!-- nav bar  -->
+    <!-- ////////////////////////// -->
+    
+    <div class="nav-bar">
+        
+        <div class="hamburger">
+            <div></div>
+            <div class="middle"></div>
+            <div></div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="item">
+            <path
+                d="M116.096 27.8065L103.741 14.1781L103.749 14.1732L92.0643 1.28584L62.9273 25.1164L62.7028 24.8669L62.6977 24.862L49.3649 10.159H49.3597C44.6412 4.95417 37.8484 1.47358 30.1036 0.949887C14.6089 -0.0975025 1.16522 11.0804 0.0713569 25.9143C-0.498794 33.624 2.38292 40.805 7.45494 46.0716L20.2743 60.2089L20.7206 60.7005L31.9559 73.0962L45.5725 61.8467L60.9614 49.1323L61.0517 49.2311L64.501 53.0353L74.1884 63.7216H74.1935C78.9095 68.9215 85.7023 72.4021 93.4497 72.9283C108.942 73.9756 122.388 62.7977 123.482 47.9638C124.052 40.2542 121.168 33.0706 116.096 27.8041V27.8065ZM49.2823 36.2795L33.7902 48.9495L32.0075 46.998L32.0179 46.9881L20.5091 34.2934C20.4833 34.2638 20.4549 34.2366 20.4291 34.207C18.7186 32.3197 17.7589 29.8099 17.955 27.1173C18.3523 21.7371 23.2283 17.6834 28.8498 18.0638C31.6593 18.2516 34.123 19.5188 35.8335 21.4036C35.8696 21.4456 35.9031 21.4827 35.9393 21.5222L47.3707 34.1279L49.1379 36.0794L49.3081 36.2573L49.2514 36.3017L49.2798 36.2795H49.2823ZM105.64 46.7929C105.242 52.1707 100.366 56.2268 94.7474 55.8464C91.9353 55.6587 89.4741 54.3914 87.7611 52.5066C87.7275 52.4671 87.6914 52.4301 87.6579 52.3881L74.7173 38.1149L79.0489 34.5059L90.1604 25.3585L103.088 39.6168C103.114 39.6465 103.14 39.6736 103.165 39.7033C104.879 41.5906 105.838 44.1028 105.64 46.7929Z"
+                opacity="1" >
+            </path>
+        </svg>
+        <div class="overmid"></div>
+        <div class="search-box" id="searchbar">
+            
+            <input id="searchInput" type="text" placeholder="search...">
+            
+            <button id="button" onclick="tall()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            
+        </div>
+        
+
+    <!-- ////////////////////////// -->
+        <!-- Side bar  -->
+    <!-- ////////////////////////// -->
+
+    <div class="main-content">
+
+        <div class="side-bar">
+            <div class="filter">
+                <p>Filter</p>
+            </div>
+            <ul class="side-b-ul">
+                <li st='all' class="active">All</li>
+                <li st="old">old</li>
+                <li st="new">new</li>
+                <li st="pending">pending</li>
+                <li st="qualified">qualified</li>
+            </ul>
+        </div>
+        
+    
+        <div class="container">
+            <div class="nav section ">
+                <ul class="flex">
+                    <li>Company</li>
+                    <li>Category</li>
+                    <li>Contact</li>
+                    <li>State</li>
+                    <li>Date</li>
+                    <li class="more"></li>
+                </ul>
+            </div>
+    
+            <div class="content section" id="clients"></div>
+        
+        </div>
+    </div>
+
+    <!-- //////////////////////////// -->
+        <!-- more about client -->
+    <!-- //////////////////////////// -->
+
+    <div class="more-info fill background">
+        <div class="remove center">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="more">
+
+            <div class="more-company">
+                <div class="first">
+                    <div><img src="djzzey.jpg" height="50px" width="50px" ></div>
+                    <p class="mor-class"></p>
+                </div>
+                <div>
+                    <h1>Category:</h1>
+                    <p class="mor-category"></p>
+                </div>
+                <div>
+                    <h1>State:</h1>
+                    <p class="mor-secteur"></p>
+                </div>
+            </div>
+
+            <!-- ========================= -->
+
+            <div class="more-client">
+                <div class="first">
+                    <div><img src="mohamed.jpg" height="50px" width="50px"></div>
+                    <p class="contact-name"></p>
+                </div>
+                <div class="li-contact">
+                    <h1>Contact</h1>
+                    <span>
+                        <p class="mor-phone"></p>
+                        <p class="mor-email"></p>
+                    </span>
+                </div>
+                <div>
+                    <h1>function:</h1>
+                    <p class="contact-function"></p>
+                </div>
+            </div>
+        </div>
+            <!-- ====================== -->
+        <div class="progress">
+            <!-- <div></div>
+            <h1>date: </h1>
+            <p class="mor-date"></p> -->
+        </div>
+
+    </div>
+
+    <!-- //////////////////////////// -->
+        <!-- more about client -->
+    <!-- //////////////////////////// -->
+
+    <div class="show-add">
+        +
+    </div>
+    <div class="add background">
+        <h2 class="bigtitle" >Add Client :</h2>
+        
+        <h1> Company Information </h1>
+        <ul class="company-input">
+            <li>
+                <label>Company Name</label>
+                <input type="text" class="c-class-inp" placeholder="Enter company name...">
+            </li>
+            <li>
+                <label>Category</label>
+                <input type="text" class="categor-inp" placeholder="Enter category...">
+            </li>
+            <li>
+                <label>Secteur</label>
+                <input type="text" class="secteur-inp" placeholder="Enter secteur...">
+
+            </li>
+            <li>
+                <label>Entite</label>
+                <input type="text" class="se" placeholder="Enter entite...">
+            </li>
+            <li>
+                <label>date: </label>
+                <input type="date" class="date-inp" placeholder="Enter date...">
+            </li>
+        </ul>
+
+        <!-- ====================== -->
+
+        <h1>Client Information</h1>
+        <ul class="client-input">
+            <li>
+                <label>Client Name</label>
+                <input type="text" class="contact-class-inp"placeholder="Enter client name...">
+            </li>
+            <li>
+                <label>Email</label>
+                <input type="email" class="conatact-inp " placeholder="Enter email... ">
+
+            </li>
+            <li>
+                <label>Phone Number</label>
+                <input type="tel" class="more-inp" placeholder="Enter phone number...">
+            </li>
+            <li>
+                <label>Function</label>
+                <input type="text" class="function-inp" placeholder="Enter function...">
+
+            </li>
+            
+        </ul>
+        <input type="submit" class="submit">
+        <button class="cancel">cancel</button>
+
+    </div>
+</div>
+    
+    <script src="prospect (1).js"></script>
+</body>
+
+</html>
